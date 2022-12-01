@@ -1,0 +1,18 @@
+{
+	// 对象中的空格 默认true
+	// true: { foo: bar }
+	// false: {foo: bar}
+  "bracketSpacing": true,
+  // 让prettier使用eslint的代码格式进行校验
+  "eslintIntegration": true,
+  // 用单引号代替双引号
+  "stylelintIntegration": true,
+  // 超过最大值换行
+  "proseWrap": "never",
+  // tab缩进大小,默认为2
+  "tabWidth": 2,
+  // 使用单引号, 默认false(在jsx中配置无效, 默认都是双引号)
+  "singleQuote": true,
+  // 使用分号, 默认true
+  "semi": false
+}
